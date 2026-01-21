@@ -2248,7 +2248,7 @@ def main():
     if not user_id:
         render_login()
         st.markdown(f"## {APP_TITLE}")
-        st.info("📱スマホの方：左上の「≡」を押すとログイン欄が出ます。")
+        st.info("📱スマホの方：左上の「>>」を押すとログイン欄が出ます。")
         st.info("左のサイドバーからログイン（または新規登録）してください。")
         st.markdown(
             """
@@ -2268,3 +2268,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
